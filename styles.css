@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+
+:root {
+  /* --var-bg-color: #fde2e4; */
+  --var-bg-color: #ffee32;
+  /* --var-bg-color-2: #b2f7ef; */
+  --var-bg-color-2: #202020;
+}
+
+body {
+  background-color: var(--var-bg-color);
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 960px;
+}
+
+.hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/background.jpg);
+  background-size: cover;
+  background-position: 47%;
+}
+
+h2 {
+  font-family: "Lobster Two", cursive;
+}
+
+.hero h2:first-of-type {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  font-family: "Lobster Two", cursive;
+}
+
+.img-maximilian {
+  height: 500px;
+  object-fit: cover;
+  object-position: 0 -200px;
+}
+
+#video-greeting,
+#congratulators {
+  background-color: var(--var-bg-color-2);
+}
+
+#congratulators {
+  font-size: 0.5rem;
+}
